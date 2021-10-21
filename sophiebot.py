@@ -5,7 +5,7 @@ import os
 import openai
 
 load_dotenv()
-open.api_key = "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"
+openai.api_key = "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"
 completion = openai.Completion()
 
 

@@ -4,7 +4,7 @@ from sophiebot import ask, append_interaction_to_chat_log
 
 app = Flask(__name__)
 # if for some reason your conversation with the bot gets weird, change the secret key 
-app.config['SECRET_KEY'] = '89djhff9lhkd93'
+app.config['SECRET_KEY'] = '89djhff9lh22kd93'
 
 @app.route('/sophiebot', methods=['POST'])
 def jabe():
